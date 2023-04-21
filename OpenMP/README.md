@@ -3,6 +3,9 @@
 
 ***
 
+Este programa imprime la suma de los números consecutivamente desde 1 hasta el valor num que en este caso es 10 y a su vez muestra
+el valor en segundos del tiempo de reloj transcurrido.
+
 * El archivo omp_summaSimple es el ejecutable del ejercicio omp_summaSimple.c
 * El archivo omp_summaSimple.c contiene el ejercicio de suma simple realizado en c++ paralelizado haciendo uso 
   de la línea de código  #pragma omp parallel for reduction(+:sum) antes del for
