@@ -15,7 +15,8 @@
  
   ./omp_summaSimple (Ejecuta el archivo omp_summaSimple)
   
-  Nota: Para ejecutar el summaSimple.sbatch se utiliza el comando: sbatch summaSimple.sbatch
-  
-        Para mostrar lo ejecutado por el comando anterior se utiliza el comando: nano output_summaSimple.txt
+ 
+  Para ejecutar el summaSimple.sbatch se utiliza el comando: sbatch summaSimple.sbatch
+ 
+  Para mostrar lo ejecutado por el comando anterior se utiliza el comando: nano output_summaSimple.txt
   
