@@ -4,7 +4,8 @@
 ***
 
 * El archivo omp_summaSimple es el ejecutable del ejercicio omp_summaSimple.c
-* El archivo omp_summaSimple.c contiene el ejercicio de suma simple realizado en c++ ya paralelizado
+* El archivo omp_summaSimple.c contiene el ejercicio de suma simple realizado en c++ paralelizado haciendo uso 
+  de la línea de código  #pragma omp parallel for reduction(+:sum) antes del for
 * El archivo output_summaSimple.txt es la salida generada por el archivo summaSimple.sbatch
 * El archivo summaSimple.c contiene el ejercicio de suma simple propuesto en el taller 1 realizado en c++ sin paralelizar
 * El archivo summaSimple.sbatch contiene al archivo output_summaSimple.txt y es el encargado de correr el archivo omp_summasimple.c en guane
