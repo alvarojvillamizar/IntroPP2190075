@@ -12,6 +12,7 @@
   mediante el comando:
   
   gcc -fopenmp omp_summaSimple.c -o omp_summaSimple (compila el archivo omp_summaSimple y el ejecutable lo nombra como omp_summaSimple)
+ 
   ./omp_summaSimple (Ejecuta el archivo omp_summaSimple)
   
   Nota: * Para ejecutar el summaSimple.sbatch se utiliza el comando: sbatch summaSimple.sbatch
